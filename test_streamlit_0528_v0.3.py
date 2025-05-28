@@ -264,7 +264,7 @@ if uploaded_images:
     for idx, image_file in enumerate(uploaded_images):
         with cols[idx % num_cols]:
             image = Image.open(image_file)
-            st.image(image, caption=f"📷 {image_file.name}", use_column_width=True)
+            st.image(image, caption=f"📷 {image_file.name}", use_container_width=True)
             
             # 이미지 정보 표시
             st.caption(f"크기: {image.size[0]}x{image.size[1]} | 형식: {image.format}")
