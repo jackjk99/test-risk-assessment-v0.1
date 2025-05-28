@@ -214,7 +214,7 @@ def parse_risk_table_from_markdown(markdown_text: str) -> pd.DataFrame:
         ], columns=["번호", "잠재 위험요인", "잠재 위험요인 설명", "위험성 감소대책"])
 
 # Streamlit App UI
-st.title("🏗️ 이미지 분석 현장 안전 위험성 평가 Tool")
+st.title("🏗️ 이미지 분석 현장 위험성 평가")
 st.header("📋 참조문서 및 현장 이미지 업로드")
 
 # OpenAI API 키 상태 확인
