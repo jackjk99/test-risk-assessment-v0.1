@@ -7,6 +7,14 @@ import os
 import base64
 import io
 from datetime import datetime
+import locale
+
+# 한국 로케일 설정 (선택사항)
+try:
+    locale.setlocale(locale.LC_TIME, 'ko_KR.UTF-8')  
+except:
+    pass  # 로케일 설정 실패해도 계속 진행
+
 
 # OpenAI API 키 읽기 함수
 def load_openai_api_key() -> str:
