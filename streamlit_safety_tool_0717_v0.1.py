@@ -7,7 +7,7 @@ import os
 import base64
 import io
 from datetime import datetime
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import locale
 
 # 한국 로케일 설정 (선택사항)
@@ -18,7 +18,7 @@ except:
 
 
 # .env 파일 로드
-load_dotenv()
+# load_dotenv()
 
 # OpenAI API 키 읽기 함수
 def load_openai_api_key() -> str:
