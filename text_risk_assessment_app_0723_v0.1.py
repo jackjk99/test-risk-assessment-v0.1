@@ -614,7 +614,7 @@ if st.session_state['analysis_result']:
     with tab3:
         st.subheader("위험성 평가표")
         if sections.get("risk_table"):
-            st.markdown(sections["risk_table"])
+            # st.markdown(sections["risk_table"])
             
             # 위험성 평가표를 DataFrame으로 추출
             try:
