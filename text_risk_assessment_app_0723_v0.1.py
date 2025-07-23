@@ -620,7 +620,7 @@ if st.session_state['analysis_result']:
             try:
                 risk_df = parse_risk_table_from_markdown(result['full_report'])
                 if not risk_df.empty:
-                    st.markdown("### 📋 위험성 평가 표 (데이터프레임)")
+                    # st.markdown("### 📋 위험성 평가 표 (데이터프레임)")
                     st.dataframe(
                         risk_df, 
                         use_container_width=True,
