@@ -541,7 +541,7 @@ def parse_risk_table_from_markdown(markdown_text: str) -> pd.DataFrame:
         ], columns=["번호", "잠재 위험요인", "잠재 위험요인 설명", "위험성 감소대책"])
 
 # Streamlit App UI
-st.title("🏗️ 현장사진              AI위험성평가")
+st.title("🏗️ 현장사진기반              AI위험성평가")
 
 # 숨김 처리( 7/17)
 
